@@ -3,6 +3,7 @@ package app
 import (
 	"belajar-golang-rest-api/helper"
 	"database/sql"
+	_ "github.com/jackc/pgx/stdlib"
 	"time"
 )
 
